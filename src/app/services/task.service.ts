@@ -10,9 +10,8 @@ export class TaskService {
 
   constructor() { }
 
-  getTask(): Observable<Task[]> {
-
-    const tasks = of(TASKS);
+  getTasks(): Observable<Task[]> {
+    const tasks = of(TASKS)
     return tasks;
   }
 }
