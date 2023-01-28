@@ -16,7 +16,7 @@
       "id": 3,
       "text": "Shopping Time",
       "day": "July 11 2023",
-      "reminder": false
+      "reminder": true
     }
   ]
 }
