@@ -8,10 +8,11 @@ import { Task } from 'src/app/Task';
   styleUrls: ['./task-item.component.css']
 })
 export class TaskItemComponent implements OnInit {
-
   @Input() task!: Task;
+
   faTimes = faTimes;
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

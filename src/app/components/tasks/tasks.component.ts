@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable, of } from 'rxjs';
 import { TaskService } from 'src/app/services/task.service';
 import { Task } from 'src/app/Task';
 
@@ -17,9 +16,7 @@ export class TasksComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.taskService.getTasks().subscribe((tasks) => this.tasks = tasks);
-    console.log(this.tasks)
-
+    this.taskService.getTasks().subscribe((tasks) => (this.tasks = tasks));
   }
 
 }
