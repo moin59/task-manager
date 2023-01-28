@@ -10,13 +10,13 @@
       "id": 2,
       "text": "Office Tour",
       "day": "Jan 26 2024",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 3,
       "text": "Shopping Time",
       "day": "July 11 2023",
-      "reminder": true
+      "reminder": false
     }
   ]
 }
